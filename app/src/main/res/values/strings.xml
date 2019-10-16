@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Barcode master</string>
+    <string name="menu_open">Open</string>
+    <string name="menu_close">Close</string>
+    <string name="about">Barcode master can Scan barcode, Decode barcode from phone memory, Analyze decoded data and can Generate
+    QR code as your need. \n\nYou can also share your generated QR code or save it to your phone memory.</string>
+</resources>

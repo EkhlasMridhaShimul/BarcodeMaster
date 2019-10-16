@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:gravity="center"
+    tools:context=".QrGenerator">
+    <ImageView
+        android:id="@+id/qr_field"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:src="@drawable/encode"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/light_blue"
+            android:text="Enter text to encode:"/>
+    <EditText
+        android:id="@+id/qr_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edt_field_design"
+        android:layout_margin="5dp"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:padding="10dp"/>
+    <Button
+        android:id="@+id/generate_button"
+        android:layout_margin="5dp"
+        android:layout_height="55dp"
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/dark_blue"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:text="Generate QR"/>
+    </LinearLayout>
+
+</LinearLayout>

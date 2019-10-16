@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_id"
+        android:title="Home"
+        android:icon="@drawable/home"/>
+    <item
+        android:id="@+id/scanner_id"
+        android:title="Barcode scanner"
+        android:icon="@drawable/scanner"/>
+    <item
+        android:id="@+id/gallery_button"
+        android:title="Read from gallery"
+        android:icon="@drawable/reader"/>
+    <item
+        android:id="@+id/generator_id"
+        android:title="QR code generator"
+        android:icon="@drawable/qr_code"/>
+    <item
+        android:id="@+id/about_id"
+        android:title="About"
+        android:icon="@drawable/man_user"/>
+
+</menu>
